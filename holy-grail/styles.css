@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  display: grid;
+  height: 100vh;
+  grid-template: auto 1fr auto / auto 1fr auto;
+  font-family: system-ui, sans-serif;
+}
+
+header {
+  background-color: lightpink;
+  grid-column: 1 / 4;
+}
+
+.left-sidebar {
+  background: lightblue;
+  grid-column: 1 / 2;
+}
+
+main {
+  background-color: coral;
+  grid-column: 2 / 3;
+}
+
+.right-sidebar {
+  background-color: yellow;
+  display: grid;
+  grid-column: 3 / 4;
+}
+
+footer {
+  background-color: wheat;
+  grid-column: 1 / 4;
+  text-align: center;
+}
+
+header,
+footer {
+  padding: 2rem;
+}
