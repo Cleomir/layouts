@@ -1,0 +1,32 @@
+body {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: repeat(12, 1fr);
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
+div {
+  display: grid;
+  place-items: center;
+}
+
+.span-12 {
+  background-color: lightpink;
+  grid-column: 1 / 13;
+}
+
+.span-6 {
+  background-color: lightblue;
+  grid-column: 1 / 7;
+}
+
+.span-4 {
+  background-color: coral;
+  grid-column: 4 / 9;
+}
+
+.span-2 {
+  background-color: yellow;
+  grid-column: 3 / 5;
+}
