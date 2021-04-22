@@ -9,5 +9,5 @@ body {
 div {
   display: grid;
   place-items: center;
-  background-color: lightpink;
+  background-color: lightblue;
 }
