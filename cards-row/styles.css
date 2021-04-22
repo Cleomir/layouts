@@ -1,0 +1,26 @@
+body {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: lightblue;
+  padding: 1rem;
+}
+
+.image {
+  height: 100px;
+  width: 100%;
+  background: wheat;
+  margin: 0.5rem 0;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
